@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+header{
+    width:100%;
+    height: 100vh;
+    background-image: url('../images/Bg.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+
+.Mheader{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Mheader .logo{
+    width: 300px;
+    height: 100px;
+    padding-left: 100px;
+}
+.Mheader nav{
+    width: 450px;
+    text-decoration: none;
+    text-transform: capitalize;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+}
+.Mheader nav a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+.MB{
+    margin-right: 60px;
+}
+.Mheader button{
+    padding-right: 200px;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: large;
+    background-image: linear-gradient(to right,#649bff,#0070fa,#649bff);
+    border-radius:10px;
+
+}
+
+main{
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+main .Right{
+    padding-right: 70px;
+    margin: 200px;
+}
+main .Left{
+    padding-left: 100px;
+    margin: 150px;
+
+}
+.Left h1{
+    text-transform: capitalize;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.Left h2{
+    text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    margin-top: 150px;
+
+}
+
+.Left button{
+    background-image: linear-gradient(to right,#649bff,#0070fa,#649bff);
+    margin: 20px;
+    padding: 10px;
+
+}
+.Right figure{
+    margin: 10px;
+    padding: 10px;
+}
